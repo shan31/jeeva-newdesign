@@ -1,0 +1,414 @@
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Youth Hub</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="dashboard" id="temp_profile1">
+    
+   <!--Mobile Nav-->
+<nav class="navbar navbar-default nav_header navbar-fixed-top mobile_view">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <img src="img/menu_icon.png" alt="Youth Hub menu-icon" class="img-responsive">
+                </button>
+                <a class="navbar-brand inline logo" href="#"><img src="img/logo.png" alt="Youth Hub" class="img-responsive"></a>
+                <a class="navbar-brand inline" href="#"><img src="img/home_icon.png" alt="Youth Hub home-icon" class="img-responsive"></a>
+                <a class="navbar-brand inline pull-right" href="#"><img src="img/mail_icon.png" alt="Youth Hub mail-icon" class="img-responsive"></a>
+                <a class="navbar-brand inline pull-right" href="#"><img src="img/bell_icon.png" alt="Youth Hub bell-icon" class="img-responsive"></a>
+                <!--<a class="navbar-brand inline pull-right" href="#"><img src="img/add_icon.png" alt="Youth Hub add-icon" class="img-responsive inline"><span class="invite_users">&nbsp; Invite Users</span></a>-->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav list-inline">
+                	<li>
+                       <div class="col-sm-12"><span class="explore">Explore</span></div>
+                       <ul class="sub-menu">
+                       <li><a href="#">Find Connections</a></li>
+                       <li><a href="#">Youth Support Requests</a></li>
+                       <li><a></a></li>
+                       </ul>
+                     </li>
+                     <li>
+                       <div class="col-sm-12"><span class="jobs">Jobs</span></div>
+                       <ul class="sub-menu">
+                       <li><a href="#">Job Categories</a></li>
+                       <li><a href="#">Job Applied History</a></li>
+                       <li><a></a></li>
+                       </ul>
+                     </li>
+                     <li>
+                       <div class="col-sm-12"><span class="broadcast">Broadcast</span></div>
+                       <ul class="sub-menu">
+                       <li><a href="#">Events</a></li>
+                       <li><a href="#">Map - Events</a></li>
+                       <li><a href="#">Map - Jobs</a></li>
+                       </ul>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<!-- Desktop Nav  --> 
+    <nav class="navbar navbar-default nav_header navbar-fixed-top desktop_view">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Youth Hub" class="img-responsive"></a>
+            </div>
+            <div class="collapse navbar-collapse" >
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#"><img src="img/home_icon.png" alt="Youth Hub home-icon" class="img-responsive"></a>
+                    </li>
+                    <li class="first_menu">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle" data-toggle="dropdown"><img src="img/menu_icon.png" alt="Youth Hub menu-icon" class="img-responsive"></div>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="col-sm-12 no_padding">
+                                        <div class="col-sm-4">
+                                            <div class="col-sm-12 no_padding"><span>Explore</span></div>
+                                            <hr>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Find Connections</a></li>
+                                                <li><a href="#">Youth Support Requests</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="col-sm-12 no_padding"><span>Jobs</span></div>
+                                            <hr>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Job Categories</a></li>
+                                                <li><a href="#">Job Applied History</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="col-sm-12 no_padding"><span>Broadcast</span></div>
+                                            <hr>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Events</a></li>
+                                                <li><a href="#">Map - Events</a></li>
+                                                <li><a href="#">Map - Jobs</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-center">
+                <li>
+                        <form class="search">
+                            <input type="text" name="search" placeholder="Search..">
+                        </form>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"><img src="img/add_icon.png" alt="Youth Hub add-icon" class="img-responsive inline"><span class="invite_users">&nbsp; Invite Users</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/bell_icon.png" alt="Youth Hub bell-icon" class="img-responsive"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/mail_icon.png" alt="Youth Hub mail-icon" class="img-responsive"></a>
+                    </li>
+                    <li class="db_img">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                <a href="#"><img src="img/user_pro_img.png" alt="Youth Hub bell-icon" class="img-responsive img-circle"></a>
+                            </div>
+                            <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#"><img src="img/hand_icon.png" alt="Youth Hub bell-icon" class="img-responsive center-block"> Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="img/user_icon.png" alt="Youth Hub bell-icon" class="img-responsive center-block"> My Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="img/settings_icon.png" alt="Youth Hub bell-icon" class="img-responsive center-block"> My Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="img/lock_icon.png" alt="Youth Hub bell-icon" class="img-responsive center-block"> Logout</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="l_chat">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                <a href="#"><img src="img/live_chat.png" alt="Youth Hub live-chat" class="img-responsive img-circle"></a>
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Live Chat</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+        <div class="col-sm-11">
+          <!--left sidebar-->
+            <div class="col-sm-3 ">
+            <div class="col-sm-12">
+            <div class="left_sidebar">
+            <div class="pro_img">
+                    <img src="img/user.jpg" class="img-circle img-responsive center-block" alt="User profile image">
+                </div>
+                <div class="well">
+                    <div class="col-sm-12 leftside_box">
+                        <span class="fliter"><img src="img/fliter.png" class="img-responsive inline" alt="Fliter"><small class="inline"><b>&nbsp;Fliter</b></small></span>
+                    </div>
+                </div>
+                <div class="well">
+                    <div class="col-sm-12 leftside_box">
+                        <span class="events"><img src="img/events.png" class="img-responsive inline" alt="Events"><small class="inline"><b>&nbsp;Your Events</b></small></span>
+                    </div>
+                </div>
+            </div>
+            
+                
+                
+            </div>
+                
+                
+                
+            </div>
+            <!--Center content-->
+            <div class="col-sm-7 center_content col-sm-push-1">
+                    <div class="col-sm-12 no_padding">
+                        <div class="col-sm-6 name_div no_padding">
+                            <div class="name">
+                                <small>Gidday! My name is:</small>
+                                <h2 class="name_heading">Amy Warrington</h2>
+                            </div>
+                            <div class="col-sm-12 no_padding">
+                                    <div class="col-sm-4 no_padding following">
+                                        <h2 class="inline">10 </h2> <span class="mobile_view inline"> <i class="fa fa-user-plus" aria-hidden="true"></i></span><small class="inline desktop_view"> Following</small>
+                                    </div>
+                                    <div class="col-sm-4 no_padding photos">
+                                        <h2 class="inline">29 </h2> <span class="mobile_view inline"> <i class="fa fa-picture-o" aria-hidden="true"></i></span> <small class="inline desktop_view"> Photos</small>
+                                    </div>
+                                    <div class="col-sm-4 no_padding videos">
+                                        <h2 class="inline">9 </h2> <span class="mobile_view inline"> <i class="fa fa-video-camera" aria-hidden="true"></i></span> <small class="inline desktop_view"> Videos</small>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 no_padding pulse">
+                            <img src="img/pulse.png" class="img-responsive center-block" alt="My Pluse">
+                            <small><b>My Pulse</b></small>
+                        </div>
+                        <div class="col-sm-3 no_padding profile_strength">
+                            <img src="img/profile_strength.png" class="img-responsive center-block" alt="Your Profile Strength">
+                            <small><b>Your Profile Strength</b></small>
+                        </div>
+                    </div>
+                <div class="content">
+                    <div class="col-sm-12 no_padding share_div">
+                        <div class="col-sm-9 share">
+                            <small><b>Share your journey</b></small>
+                        </div>
+                        <div class="col-sm-3 media_icon">
+                            <div class="dropdown inline">
+                                <div class="dropdown-toggle" data-toggle="dropdown">
+                                    <a href="#"><img src="img/camera.png" class="img-responsive" alt="camera-icon"></a>
+                                </div>
+                                <ul class="dropdown-menu camera_icon">
+                                    <li>
+                                        <div class="col-sm-12 no_padding">
+                                            <div class="col-sm-12 no_padding">
+                                                <form class="form-inline">
+                                                    <div class="col-sm-10 form-group no_padding">
+                                                        <input type="text" class="form-control" id="url" placeholder="Your Youtube URL:" required>
+                                                    </div>
+                                                    <div class="col-sm-2 no_padding">
+                                                    <button type="submit" class="btn btn-default btn_add"><img src="img/add_icon.png" class="img-responsive inline" alt="add-icon"> Add</button>
+                                                    </div>
+                                                </form>
+                                                <br>
+                                            </div>
+                                            <div class="col-sm-12 no_padding">
+                                                <form class="form-inline">
+                                                    <div class="col-sm-10 form-group no_padding">
+                                                        <input type="text" class="form-control" id="tags" placeholder="Add tags to your post here:" required>
+                                                    </div>
+                                                    <div class="col-sm-2 no_padding">
+                                                    <button type="submit" class="btn btn-default btn_add"><img src="img/add_icon.png" class="img-responsive inline" alt="add-icon"> Add</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="col-sm-12 tags">
+                                                <img src="img/training.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/my-interests.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/events_icon.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/volunteer.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/community.png" class="img-responsive inline" alt="tags">
+                                            </div>
+                                            <div class="col-sm-12 hide_div no_padding">
+                                                <img src="img/up.png" class="img-responsive inline" alt="add-icon">
+                                                <img src="img/down.png" class="img-responsive inline" alt="add-icon">
+                                                <span class="inline"> Hide</span>
+                                                <button type="submit" class="btn btn-info btn_post">Post</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown inline">
+                                <div class="dropdown-toggle" data-toggle="dropdown">
+                                    <a href="#"><img src="img/take.png" class="img-responsive inline" alt="take-icon"></a>
+                                </div>
+                                <ul class="dropdown-menu take_icon">
+                                    <li>
+                                        <div class="col-sm-12 no_padding">
+                                            <div class="col-sm-12 no_padding">
+                                                <form class="form-inline">
+                                                    <div class="col-sm-10 form-group no_padding">
+                                                        <input type="text" class="form-control" placeholder="Your Youtube URL:" required>
+                                                    </div>
+                                                    <div class="col-sm-2 no_padding">
+                                                    <button type="submit" class="btn btn-default btn_add"><img src="img/add_icon.png" class="img-responsive inline" alt="add-icon"> Add</button>
+                                                    </div>
+                                                </form>
+                                                <br>
+                                            </div>
+                                            <div class="col-sm-12 no_padding">
+                                                <form class="form-inline">
+                                                    <div class="col-sm-10 form-group no_padding">
+                                                        <input type="text" class="form-control" placeholder="Add tags to your post here:" required>
+                                                    </div>
+                                                    <div class="col-sm-2 no_padding">
+                                                    <button type="submit" class="btn btn-default btn_add"><img src="img/add_icon.png" class="img-responsive inline" alt="add-icon"> Add</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="col-sm-12 tags">
+                                                <img src="img/training.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/my-interests.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/events_icon.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/volunteer.png" class="img-responsive inline" alt="tags">
+                                                <img src="img/community.png" class="img-responsive inline" alt="tags">
+                                            </div>
+                                            <div class="col-sm-12 hide_div no_padding">
+                                                <img src="img/up.png" class="img-responsive inline" alt="add-icon">
+                                                <img src="img/down.png" class="img-responsive inline" alt="add-icon">
+                                                <span class="inline"> Hide</span>
+                                                <button type="submit" class="btn btn-info btn_post">Post</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 no_padding">
+                        <div class="col-sm-2 no_padding user_small_img">
+                            <img src="img/user_small_img.png" class="img-responsive img-circle" alt="user-small-img">
+                        </div>
+                        <div class="col-sm-10 no_padding post pull-right">
+                            <div class="col-sm-12 post_header">
+                            <div class="mobile_view post_img"><img src="img/user_small_img.png" class="img-responsive img-circle" alt="user-small-img"></div>
+                                <div class="post_title">
+                                <p class="no_margin">Thursday 24th November 2016</p>
+                                <h2 class="name_heading inline">Here is a title for this post</h2>
+                                <i class="fa fa-ellipsis-v pull-right inline mobile_view" aria-hidden="true"></i>
+                                </div>
+                                <a href="#" class="post_menu_arrow"><img src="img/down.png" class="img-responsive inline pull-right" alt="Your Profile Strength"></a>
+                            </div>
+                            <div class="col-sm-12 post_content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <img src="img/post.png" class="img-responsive inline pull-right" alt="Post">
+                            </div>
+                            <div class="col-sm-12 option">
+                                <a href="#"><img src="img/heart_tick.png" class="img-responsive inline" alt="Post"><span> Encourage</span> &nbsp;</a>
+                                <a href="#"><img src="img/comment.png" class="img-responsive inline" alt="Post"><span> Comment </span><img src="img/3_icon.png" class="img-responsive inline" alt="Post"> &nbsp;</a>
+                                <a href="#"><img src="img/heart_next.png" class="img-responsive inline" alt="Post"><span> Contribute</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 no_padding">
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-8 write_comment no_padding">
+                            <div class="col-sm-12 no_padding">
+                                <div class="col-sm-2 u_img inline">
+                                    <img src="img/user_small_img2.png" class="img-circle" alt="user-small-img">
+                                </div>
+                                <div class="col-sm-10 w_comment inline">
+                                    <form class="comment">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="comment" placeholder="Write a  comment.">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 no_padding">
+                        <div class="col-sm-2 no_padding user_small_img">
+                            <img src="img/user_small_img.png" class="img-responsive img-circle" alt="user-small-img">
+                        </div>
+                        <div class="col-sm-10 no_padding post pull-right">
+                            <div class="col-sm-12 post_header">
+                            <div class="mobile_view post_img"><img src="img/user_small_img.png" class="img-responsive img-circle" alt="user-small-img"></div>
+                                <div class="post_title">
+                                <p class="no_margin">Thursday 24th November 2016</p>
+                                <h2 class="name_heading inline">Here is a title for this post</h2>
+                                <i class="fa fa-ellipsis-v pull-right inline mobile_view" aria-hidden="true"></i>
+                                </div>
+                                <a href="#" class="post_menu_arrow"><img src="img/down.png" class="img-responsive inline pull-right" alt="Your Profile Strength"></a>
+                            </div>
+                            <div class="col-sm-12 post_content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <img src="img/post.png" class="img-responsive inline pull-right" alt="Post">
+                            </div>
+                            <div class="col-sm-12 option">
+                                <a href="#"><img src="img/heart_tick.png" class="img-responsive inline" alt="Post"><span> Encourage</span> &nbsp;</a>
+                                <a href="#"><img src="img/comment.png" class="img-responsive inline" alt="Post"><span> Comment </span><img src="img/3_icon.png" class="img-responsive inline" alt="Post"> &nbsp;</a>
+                                <a href="#"><img src="img/heart_next.png" class="img-responsive inline" alt="Post"><span> Contribute</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 no_padding">
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-8 write_comment no_padding">
+                            <div class="col-sm-12 no_padding">
+                                <div class="col-sm-2 u_img inline">
+                                    <img src="img/user_small_img2.png" class="img-circle" alt="user-small-img">
+                                </div>
+                                <div class="col-sm-10 w_comment inline">
+                                    <form class="comment">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Write a  comment.">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        </div>
+    </div>
+    <div class="col-sm-12 footer">
+    <div class="footer-inner inline">2017 © YouthHub</div>
+    <div class="footer-tools inline pull-right"><a href=""><span class="scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></span></a></div>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>    
+</html>
